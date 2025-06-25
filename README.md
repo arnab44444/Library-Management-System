@@ -1,19 +1,63 @@
-#project name : Library Management System
 
-#live url: https://library-client-ccb7c.web.app
 
-#purpose: 
+# 📚 Library Management System
 
-✨ Additional Goals You Can Mention:
-To provide students/readers an easy way to explore available books.
+The **Library Management System** is a full-featured web application that allows users to manage books, browse available titles, and borrow or return books with ease. Designed with a clean UI and built using modern frontend technologies, this system is perfect for schools, small libraries, or personal use.
 
-To reduce manual work and human error in managing library records.
+---
 
-To allow admins to maintain inventory efficiently (adding, updating books).
+## 🚀 Main Features
 
-To help users quickly find available books with filters (like available books only).
+✅ **Book Browsing** – View a list of books with details like title, category, author, and description.  
+✅ **Book Management** – Admins can add, update, or delete book records.  
+✅ **Borrow/Return System** – Users can request to borrow and return books.  
+✅ **Authentication** – Login/logout features using Firebase Authentication.  
+✅ **Role-Based Access** – Different views and privileges for admins and regular users.  
+✅ **Responsive UI** – Mobile-friendly interface built with Tailwind and DaisyUI.
 
-To support both desktop and mobile users with responsive design (table & card views).
+---
+
+## ⚙️ Technology Used
+
+| Technology           | Purpose                                |
+|----------------------|----------------------------------------|
+| **React.js**         | Frontend library                       |
+| **React Router**     | SPA routing and navigation             |
+| **Firebase Auth**    | Authentication and user session        |
+| **Tailwind CSS**     | Styling framework                      |
+| **DaisyUI**          | Tailwind-based component library       |
+| **Axios**            | API communication with backend server  |
+
+---
+
+## 🌐 Live Site
+
+🔗 [Visit the Live Site](https://library-client-ccb7c.web.app)
+
+*(Replace this with your deployed client URL)*
+
+---
+
+## 🧑‍💻 Instructions to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/arnab44444/Library-Management-System.git
+
+# 2. Navigate into the project directory
+cd Library-Management-System
+
+# 3. Install dependencies
+npm install
+
+# 4. Add Firebase config
+# 👉 You can use a firebase.config.js file or .env file depending on your setup
+
+# 5. Start the development server
+npm run dev
+
+# 6. Open your browser and go to:
+http://localhost:5173
 
 
 #key features
