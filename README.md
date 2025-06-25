@@ -34,7 +34,6 @@ The **Library Management System** is a full-featured web application that allows
 
 🔗 [Visit the Live Site](https://library-client-ccb7c.web.app)
 
-*(Replace this with your deployed client URL)*
 
 ---
 
